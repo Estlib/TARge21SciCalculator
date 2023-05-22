@@ -119,7 +119,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="SIN" />
+            Text="SIN" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SIN"/>
 
         <Button
             Grid.Row="3"
@@ -127,7 +129,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="COS" />
+            Text="COS" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="COS"/>
 
         <Button
             Grid.Row="3"
@@ -135,7 +139,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="TAN" />
+            Text="TAN" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="TAN"/>
 
         <Button
             Grid.Row="3"
@@ -143,7 +149,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="LOG" />
+            Text="LOG" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="LOG"/>
 
         <Button
             Grid.Row="3"
@@ -151,7 +159,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="EXP" />
+            Text="EXP" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="EXP"/>
 
         <!--Row 3-->
         <Button
@@ -160,7 +170,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="SIN" />
+            Text="ASIN" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ASIN"/>
 
         <Button
             Grid.Row="4"
@@ -168,7 +180,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="COS" />
+            Text="ACOS" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ACOS"/>
 
         <Button
             Grid.Row="4"
@@ -176,7 +190,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="TAN" />
+            Text="ATAN" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ATAN"/>
 
         <Button
             Grid.Row="4"
@@ -184,7 +200,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="LOG" />
+            Text="LOG10" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="LOG10"/>
 
         <Button
             Grid.Row="4"
@@ -192,7 +210,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="EXP" />
+            Text="EXP" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="COS"/>
 
         <!--Row 4-->
         <Button
