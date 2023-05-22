@@ -43,6 +43,9 @@ namespace TARge21SciCalculator.ViewModels
             try
             {
                 var inputString = NormalizeInputString();
+                var expression = new NCalc.Expression(inputString);
+                var result = expression.Evaluate();
+                CalculatedResult = result.ToString();
             }
             catch (Exception)
             {
